@@ -166,11 +166,16 @@ This section presents all the results from our live Re-ID experiments. Four stan
 
 ## The TVR vs FR curves for corresponding to these experiments are shown here
 
-### \textbf{Influence of the standard Re-ID approach}. TVR vs FR curves of different standard Re-ID approaches for different training datasets. Evaluation is conducted on the \textit{modified PRID-2011} dataset for live Re-ID.
+### Influence of the standard Re-ID approach. TVR vs FR curves of different standard Re-ID approaches for different training datasets. Evaluation is conducted on the modified PRID-2011 dataset for live Re-ID.
 
 ![Training on CUHK03](figure/FR_vs_TVR_cuhk.png "Training on CUHK03").
 ![Training on DukeMTMC](figure/FR_vs_TVR_duke.png "Training on DukeMTMC").
 ![Training on Market-1501](figure/FR_vs_TVR_market.png "Training on Market-1501").
 ![Training Combining$_{\text{all}}$ Datasets](figure/FR_vs_TVR_combibed.png "Training Combining$_{\text{all}}$ Datasets").
 
+### Influence of the training dataset. TVR vs FR curves using different standard Re-ID datasets for training different Re-ID approaches. Evaluation is conducted on the modified PRID-2011 dataset for live Re-ID. 
 
+![AGW](figure/FR_vs_TVR_agw.png "AGW").
+![BoT](figure/FR_vs_TVR_bot.png "BoT").
+![SBS](figure/FR_vs_TVR_sbs.png "SBS").
+![MGN](figure/FR_vs_TVR_mgn.png "MGN").
