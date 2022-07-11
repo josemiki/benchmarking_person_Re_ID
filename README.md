@@ -1,7 +1,11 @@
 # Benchmarking person re-identification datasets and approaches for practical real-world implementations
+
 Here we are going to publish complete results for our paper.
+
 ## Complete results for cross-dataset experiments
+
 This section presents all the results from our cross-dataset Re-ID experiments. Four standard Re-ID approaches are trained on three different standard Re-ID datasets, and evaluated on a different dataset. 
+
 ### The complete results from our cross-dataset experiments using only one dataset for train:
 
 | Train       | TEST        | Approach | Rank-1 | Rank-5 | Rank-10 | mAP  | mINP |
@@ -133,7 +137,6 @@ This section presents all the results from our cross-dataset Re-ID experiments. 
 |                     |             | SBS      | 0.20   | 0.32   | 0.36    | 0.26 | 0.26 |
 |                     |             | BoT      | 0.10   | 0.19   | 0.22    | 0.15 | 0.15 |
 
-
 ## Complete results for live Re-ID experiments
 
 This section presents all the results from our live Re-ID experiments. Four standard Re-ID approaches are trained on three different standard Re-ID datasets, and combined with a pedestrian detector for evaluation at the live Re-ID task, using the m-PRID dataset. 
@@ -162,7 +165,6 @@ This section presents all the results from our live Re-ID experiments. Four stan
 |                     | BoT      | 0.31 | 0.39               | 0.44             | 0.58             |
 |                     | SBS      | 0.72 | 0.73               | 0.68             | 0.77             |
 |                     | MGN      | 0.75 | 0.80               | 0.77             | 0.84             |
-
 
 ## The TVR vs FR curves for corresponding to these experiments are shown here
 
