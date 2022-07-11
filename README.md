@@ -164,6 +164,13 @@ This section presents all the results from our live Re-ID experiments. Four stan
 |                     | MGN      | 0.75 | 0.80               | 0.77             | 0.84             |
 
 
-### The TVR vs FR curves for corresponding to these experiments are shown in Figures~\ref{fig:appendix_FRTVRcurves_dataset} and \ref{fig:appendix_FRTVRcurves_approach}.
+## The TVR vs FR curves for corresponding to these experiments are shown here
+
+### \textbf{Influence of the standard Re-ID approach}. TVR vs FR curves of different standard Re-ID approaches for different training datasets. Evaluation is conducted on the \textit{modified PRID-2011} dataset for live Re-ID.
+
+![Training on CUHK03](figure/FR_vs_TVR_cuhk.png "Training on CUHK03").
+![Training on DukeMTMC](figure/FR_vs_TVR_duke.png "Training on DukeMTMC").
+![Training on Market-1501](figure/FR_vs_TVR_market.png "Training on Market-1501").
+![Training Combining$_{\text{all}}$ Datasets](figure/FR_vs_TVR_combibed.png "Training Combining$_{\text{all}}$ Datasets").
 
 
